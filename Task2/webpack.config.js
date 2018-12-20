@@ -4,7 +4,7 @@ module.exports = {
   entry: './src/hi.js',
   output: {
     path: __dirname,
-    filename: 'app.bundle.js'
+    filename: 'dist/app.bundle.js'
   },
 
   watchOptions: {
@@ -15,13 +15,13 @@ module.exports = {
   module: {
     rules: [
         {
-            test: /\.js$/,
-            exclude: /node_modules/,
-            use: {
-              loader: 'babel-loader',
-              query: {
-                  presets: ['@babel/preset-env']
-              }
+          test: /\.js$/,
+          exclude: /node_modules/,
+          use: {
+            loader: 'babel-loader',
+            query: {
+                presets: ['@babel/preset-env']
+            }
           }
         }
     ]
