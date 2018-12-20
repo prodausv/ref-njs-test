@@ -1,0 +1,14 @@
+{
+  "name": "task3",
+  "version": "1.0.0",
+  "description": "Task 3",
+  "main": "hi.ts",
+  "scripts": {
+    "dev": "tsc & node dist/compiled.js"
+  },
+  "author": "Prodaus Vasilii",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.2.2"
+  }
+}
