@@ -1,0 +1,25 @@
+{
+    "name": "task5",
+    "version": "1.0.0",
+    "description": "Webpack / React / Typescript.  https://www.typescriptlang.org/docs/handbook/react-&-webpack.html",
+    "main": "dist/index.js",
+    "scripts": {
+        "dev": "webpack & webpack-dev-server --open"
+    },
+    "author": "Prodaus Vasilii",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/react": "^16.7.18",
+        "awesome-typescript-loader": "^5.2.1",
+        "react": "^16.6.3",
+        "react-dom": "^16.7.0",
+        "source-map-loader": "^0.2.4",
+        "typescript": "^3.2.2",
+        "webpack": "^4.27.1",
+        "webpack-cli": "^3.1.2",
+        "webpack-dev-server": "^3.1.14"
+    },
+    "dependencies": {
+        "@types/react-dom": "^16.0.11"
+    }
+}
